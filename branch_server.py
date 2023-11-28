@@ -135,7 +135,6 @@ class Branch(branch_pb2_grpc.BranchServicer):
             response.recv.extend([message_received])
 
         lock.release()
-        print(message_received)
         return response
 
 
