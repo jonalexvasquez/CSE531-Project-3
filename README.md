@@ -9,10 +9,10 @@ Once python is installed and this repository is pulled follow these steps:
 
 3.) Install the requirements (gcp libraries): `pip install -r requirements.txt`
 
-4.) Now, in your terminal open up two consoles/sessions of your terminal. First run the server by running: 
+4.) Now, in your terminal open up two consoles/sessions of your terminal. Make sure to do the above in the new session as well. First run the server by running: 
 `python branch_server.py`. You should see logs stating that certain processes were started.
 
 5.) Now, in your other terminal session run the client: `python client.py`. When the scripts finish processing you will
 see two output files populated with the expected output: 1.) `monotonic_writes_output.json` will have the output that the 
-monotonic writes input produces. 2.) `read_your_writes.json` will have the output that the read your writes input
+monotonic writes input produces. 2.) `read_your_writes_output.json` will have the output that the read your writes input
 produces. 
